@@ -12,7 +12,7 @@ function Navigation() {
     <div>
       <Navbar collapseOnSelect expand="lg" id="nav" fixed="top">
         <Navbar.Brand href="/" id="brand">
-          Tusime Godwin
+          Godwin Tusime
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" id="toogle" />
 
