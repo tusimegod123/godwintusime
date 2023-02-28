@@ -1,14 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Typical from "react-typical";
 import { ProgressBar } from "react-bootstrap";
 import { Form, Button } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import * as emailjs from "emailjs-com";
 import ScrollToTop from "react-scroll-to-top";
 import "../home.css";
-import Skills from "./Skills";
-import * as mdb from "mdb-ui-kit"; // lib
 
 // import { Link } from "react-router-dom";
 
@@ -43,7 +40,7 @@ export default function Home() {
             <h3 className="hhhhhhhhhhhh">Hello,I am Godwin Tusime!</h3>
             <p className="ppppppppp">
               I{" "}
-              <Typical
+              {/* <Typical
                 loop={Infinity}
                 wrapper="b"
                 steps={[
@@ -54,7 +51,14 @@ export default function Home() {
                   "build Enterprise Applications 👌!",
                   1000,
                 ]}
-              />
+              /> */}
+            </p>
+            <p>
+              I'm
+              <span
+                class="typed"
+                data-typed-items="UI/UX Designer, Software Developer, Freelancer"
+              ></span>
             </p>
             <div id="favorite-qoute" className=" d-none d-lg-block d-lg-none">
               <h4 className="favoriteqoute">Favorite Qoute:</h4>
