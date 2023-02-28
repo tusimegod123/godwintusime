@@ -1,0 +1,147 @@
+#first-container-about{
+background-color: black;
+
+height: 868px;
+}
+h3{
+padding-top: 2pc;
+margin-top: 60px;
+text-align: center;
+color: #c4e9e4;
+font-weight: bold;
+}
+.paragraph{
+text-align: center;
+/* padding: 7px; */
+font-weight: bold;
+color: #c4e9e4;
+font-size: 17px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#button-contact{
+text-align: center;
+}
+#contact{
+margin-top: -70px;
+}
+.contact{
+text-align: center;
+margin-top: 70px;
+}
+#skill1{
+color: aqua;
+text-align: left;
+
+
+}
+#soft-skills{
+color: aqua;
+text-align: left; 
+margin-top: 60px;  
+}
+p{
+color: aqua;
+}
+#form-label{
+color: aqua;
+}
+#next1{
+margin-top: -100px;
+text-align: right;
+}
+#skill1s{
+/* margin-top: -70px; */
+text-align: left;
+margin-top: 65px;
+}
+#contact-me{
+height: 900px;
+}
+#next11{
+margin-top: -80px;
+text-align: right;
+}
+#next12{
+margin-top: -130px;
+text-align: right;
+}
+#next14{
+margin-top: 100px;
+text-align: right;
+}
+
+
+@media only screen and (max-width:414px){
+#skill1s{
+/* margin-top: -70px; */
+text-align: left;
+margin-top: -20px;
+}
+#first-container-about{
+margin-top: -40px;
+}
+
+#soft-skills{
+color: aqua;
+text-align: left; 
+margin-top: 20px; 
+}
+#teq-skills{
+margin-top: 50px;
+}
+#contact-me{
+height: 1102px;
+}
+#contact{
+margin-top: 0px;
+}
+.paragraph{
+text-align: left;
+}
+}
+@media only screen and (max-width:375px){
+#contact{
+margin-top: 0px;
+}
+#contact-me{
+height: 1102px;
+}
+.paragraph{
+text-align: left;
+}
+#first-container-about{
+    margin-top: -40px;
+    
+    }
+}
+@media only screen and (max-width:320px){
+#skill1s{
+/* margin-top: -70px; */
+text-align: left;
+margin-top: -20px;
+}
+#first-container-about{
+margin-top: -40px;
+
+}
+#contact-me{
+height: 1102px;
+}
+#contact{
+    margin-top: -40px;
+}
+#soft-skills{
+color: aqua;
+text-align: left; 
+margin-top: 5px; 
+}
+#teq-skills{
+margin-top: 10px;
+}
+#contact{
+margin-top: 0px;
+}
+.paragraph{
+text-align: left;
+}
+}

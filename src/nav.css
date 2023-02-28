@@ -1,0 +1,29 @@
+#card{
+border-style: none;
+}
+#toogle{
+background-color: #1bd1b9;
+}
+#nav{
+background-color: rgb(32, 32, 32);
+color: #c4e9e4;
+}
+#links{
+color: #c4e9e4;
+font-weight: bold;
+}
+#links-about{
+color: #c4e9e4;
+font-weight: bold;
+margin: 10px;
+}
+#links :hover{
+color: red;
+}
+#responsive-navbar-nav{color: #497e19;
+
+}
+#brand{
+color: #c4e9e4;
+font-family: fantasy;
+}
