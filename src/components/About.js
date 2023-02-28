@@ -26,12 +26,13 @@ export default function About() {
               one in Information and Technology.
             </p>
             <p className="paragraph">
-              Well-organized person, problem solver, & currently a{" "}
+              Well-organized person, problem solver, & a{" "}
               <a href="https://frontendmasters.com/books/front-end-handbook/2018/what-is-a-FD.html">
-                'Front end web Developer'{" "}
+                Software Engineer{" "}
               </a>{" "}
-              at <a href="https://www.refactory.ug/">Refactory Uganda</a> for
-              the past one year.
+              formerly at{" "}
+              <a href="https://www.refactory.ug/">Refactory Uganda</a> 2018 -
+              2021 and Flyhub Uganda Limited April 2021 - December 2021.
             </p>
             <p className="paragraph">
               Beside work, I enjoy having fun, watching soccer & movies,

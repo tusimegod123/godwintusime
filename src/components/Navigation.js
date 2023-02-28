@@ -3,17 +3,11 @@ import { Nav } from "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
 // import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-
-
 import "../nav.css";
-
-
 const transition = { duration: 0.6, ease: [0.43, 0.13, 0.23, 0.96] };
 
-
 function Navigation() {
-   
-//   const classes = useStyles();
+  //   const classes = useStyles();
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" id="nav" fixed="top">
@@ -40,7 +34,6 @@ function Navigation() {
               transition={transition}
               href="/about"
               id="links-about"
-              
             >
               About me
             </motion.a>

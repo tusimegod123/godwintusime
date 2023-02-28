@@ -7,8 +7,6 @@ import * as emailjs from "emailjs-com";
 import ScrollToTop from "react-scroll-to-top";
 import "../home.css";
 
-// import { Link } from "react-router-dom";
-
 export default function Home() {
   const now = 85;
   const js = 70;
@@ -35,24 +33,11 @@ export default function Home() {
       <motion.div className="container" id="first-container">
         <div className="row">
           <div className="col-md-12">
-            <h3 className="hhhhhhhhhhhh">Hello,I am Godwin Tusime!</h3>
-            <p className="ppppppppp">
-              I{" "}
-              {/* <Typical
-                loop={Infinity}
-                wrapper="b"
-                steps={[
-                  "am a Backend Developer 👌!",
-                  1000,
-                  "am a Front End developer 👌!",
-                  1000,
-                  "build Enterprise Applications 👌!",
-                  1000,
-                ]}
-              /> */}
-            </p>
-            <p>
-              I'm
+            <br></br>
+
+            <h3 className="helloGodwin">Hello,I am Godwin Tusime!</h3>
+            <p className="ui">
+              UI/UX Designer, Software Developer
               <span
                 class="typed"
                 data-typed-items="UI/UX Designer, Software Developer, Freelancer"
@@ -61,19 +46,9 @@ export default function Home() {
             <div id="favorite-qoute" className=" d-none d-lg-block d-lg-none">
               <h4 className="favoriteqoute">Favorite Qoute:</h4>
               <br />
-              <h4 className="hhhhhhhhhh">"Whatever you are, be a good one"</h4>
+              <h4 className="whatever">"Whatever you are, be a good one"</h4>
             </div>
           </div>
-          {/* <div className="col-md-12 " className="d-none d-sm-block" id="next">
-            <motion.a
-              whileHover={{ scale: 1.1 }}
-              transition={transition}
-              href="/about"
-              id="next"
-            >
-              {">"}
-            </motion.a>
-          </div> */}
         </div>
       </motion.div>
 
@@ -103,12 +78,13 @@ export default function Home() {
                   second one in Information and Technology.
                 </p>
                 <p id="paragraph">
-                  Well-organized person, problem solver, & currently a{" "}
+                  Well-organized person, problem solver, & a{" "}
                   <a href="https://frontendmasters.com/books/front-end-handbook/2018/what-is-a-FD.html">
-                    'Front end web Developer'{" "}
+                    Software Engineer{"  "}
                   </a>{" "}
-                  at <a href="https://www.refactory.ug/">Refactory Uganda</a>{" "}
-                  for the past one year.
+                  formerly at{" "}
+                  <a href="https://www.refactory.ug/">Refactory Uganda</a> 2018
+                  - 2021 and Flyhub Uganda Limited April 2021 - December 2021.
                 </p>
                 <p id="paragraph">
                   Beside work, I enjoy having fun, watching soccer & movies,
@@ -143,6 +119,9 @@ export default function Home() {
                 <h3 id="exprience">Exprience:</h3>
                 <h3 id="tech-skills">Tech Skills</h3>
                 <p>
+                  Java & Spring Boot <ProgressBar now={now} label={`${now}%`} />
+                </p>
+                <p>
                   HTML & CSS <ProgressBar now={now} label={`${now}%`} />
                 </p>
 
@@ -172,7 +151,7 @@ export default function Home() {
                 </p>
                 <p>
                   Visit my{" "}
-                  <a href="https://www.linkedin.com/in/tusime-godwin-91211a84/">
+                  <a href="https://www.linkedin.com/in/godwin-tusime/">
                     linkedin profile
                   </a>{" "}
                   for more details
@@ -186,7 +165,7 @@ export default function Home() {
                 <p>Creativity</p>
                 <p>
                   Visit my{" "}
-                  <a href="https://www.linkedin.com/in/tusime-godwin-91211a84/">
+                  <a href="https://www.linkedin.com/in/godwin-tusime/">
                     linkedin profile
                   </a>{" "}
                   for more details
@@ -230,23 +209,23 @@ export default function Home() {
                 <span>
                   <p>
                     Telephone:{" "}
-                    <a href="tel:+256701398916" id="phone-link">
+                    <a href="tel:+16692169519" id="phone-link">
                       {" "}
-                      +2567013938916
+                      +16692169519
                     </a>
                   </p>
                 </span>
                 <p>
                   Email:{""}
                   &nbsp; &nbsp;
-                  <a href="mailto: tusimegodwinmarch2013@gmail.com">
+                  <a href="mailto: godwintusime@gmail.com">
                     {" "}
                     Click here to send an email
                   </a>
                 </p>
 
                 <p>Address:</p>
-                <p>Kampala, Uganda</p>
+                <p>United States</p>
               </motion.div>
 
               <motion.div
@@ -297,6 +276,8 @@ export default function Home() {
                       required={true}
                     />
                   </Form.Group>
+                  <br></br>
+
                   <Button variant="primary" type="submit">
                     Submit
                   </Button>

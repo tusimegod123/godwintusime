@@ -22,6 +22,9 @@ export default function Skills() {
           <motion.div className="col-md-6" id="teq-skills">
             <h3 id="skill1">Tech Skills</h3>
             <p>
+              Java & Spring Boot <ProgressBar now={now} label={`${now}%`} />
+            </p>
+            <p>
               HTML & CSS <ProgressBar now={now} label={`${now}%`} />
             </p>
 
